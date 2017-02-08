@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/exit_32px.png</file>
+        <file>pics/YES_24px.png</file>
+        <file>pics/Undo_24px.png</file>
+        <file>pics/down_arrow_24px.png</file>
+        <file>pics/up_arrow_24px.png</file>
+        <file>pics/database_32px.png</file>
+        <file>pics/Generate_24px.png</file>
+        <file>pics/delete_32px_1175751_easyicon.net.png</file>
+        <file>pics/dialog-error.png</file>
+        <file>pics/close_32px_1159854_easyicon.net.png</file>
+        <file>pics/database_30.862944162437px_1201712_easyicon.net.png</file>
+        <file>pics/database_30.862944162437px_1201717_easyicon.net.png</file>
+        <file>pics/database_31.02538071066px_1201709_easyicon.net.png</file>
+        <file>pics/database_31.02538071066px_1201710_easyicon.net.png</file>
+        <file>pics/database_31.51269035533px_1201719_easyicon.net.png</file>
+        <file>pics/database_31.340206185567px_1201722_easyicon.net.png</file>
+        <file>pics/database_31.340206185567px_1201723_easyicon.net.png</file>
+        <file>pics/database_31.340206185567px_1201725_easyicon.net.png</file>
+        <file>pics/ascending_sort_view_32px_6270_easyicon.net.png</file>
+        <file>pics/view_sort_ascending_2_32px_540242_easyicon.net.png</file>
+        <file>pics/paths_24px.png</file>
+    </qresource>
+</RCC>

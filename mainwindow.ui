@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;微软雅黑&quot;;
+border: 2px solid black;
+border-radius: 5px;
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>481</width>
+      <height>180</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_updateChange">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>280</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交修改</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/database_30.862944162437px_1201712_easyicon.net.png</normaloff>:/pics/database_30.862944162437px_1201712_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_undo">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>280</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>撤销修改</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/database_31.340206185567px_1201725_easyicon.net.png</normaloff>:/pics/database_31.340206185567px_1201725_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_addContent">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加记录</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/database_31.02538071066px_1201709_easyicon.net.png</normaloff>:/pics/database_31.02538071066px_1201709_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_delete">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>280</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>删除记录</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/database_31.02538071066px_1201710_easyicon.net.png</normaloff>:/pics/database_31.02538071066px_1201710_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_IDup">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>230</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>升序</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/ascending_sort_view_32px_6270_easyicon.net.png</normaloff>:/pics/ascending_sort_view_32px_6270_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_IDdown">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>230</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>降序</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/view_sort_ascending_2_32px_540242_easyicon.net.png</normaloff>:/pics/view_sort_ascending_2_32px_540242_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_search">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_search">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>230</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查询</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/database_30.862944162437px_1201717_easyicon.net.png</normaloff>:/pics/database_30.862944162437px_1201717_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_displayAll">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>230</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>数据库</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/database_31.51269035533px_1201719_easyicon.net.png</normaloff>:/pics/database_31.51269035533px_1201719_easyicon.net.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_database">
+    <property name="geometry">
+     <rect>
+      <x>2</x>
+      <y>2</y>
+      <width>496</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 12pt &quot;微软雅黑&quot;;
+border:none;
+background-color: lightblue;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;线切割工艺数据库&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Exit">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>280</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+    <property name="icon">
+     <iconset resource="tablemodel.qrc">
+      <normaloff>:/pics/close_32px_1159854_easyicon.net.png</normaloff>:/pics/close_32px_1159854_easyicon.net.png</iconset>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="tablemodel.qrc"/>
+ </resources>
+ <connections/>
+</ui>
